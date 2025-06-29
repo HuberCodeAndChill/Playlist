@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  background-color: #1b1129;
+}
+
+.img-centered {
+  display: block;      /* pour que margin auto fonctionne */
+  margin: 0 auto;      /* centre horizontalement */
+  max-width: 80%;      /* ajuste la taille (80% de la largeur du container) */
+  height: auto;        /* garde les proportions */
+  object-fit: cover;   /* utile pour recadrer si tu fixes hauteur */
+  border-radius: 8px;  /* arrondit un peu les angles */
+}
+
+.divColor{
+    background-color: #481048;
+}
+
+.sandColor{
+  background-color: #F9EBAE;
+}
+
+.sandColor:hover{
+  background-color: #f9ebaea8;
+}
