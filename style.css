@@ -25,3 +25,11 @@ body {
 .sandColor:hover{
   background-color: #f9ebaea8;
 }
+
+.purpleButton{
+      background-color: #481048;
+}
+
+.purpleButton:hover{
+      background-color: #481048bb;
+}
